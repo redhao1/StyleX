@@ -14,10 +14,10 @@ pipeline {
     stages {
         stage('Install Dependencies') {
             steps {
-                dir('frontend') {
+                     // Change directory to frontend
+                    sh 'cd frontend'
                     // Install Node.js dependencies
                     sh 'npm install'
-                }
             }
         }
         
