@@ -1,0 +1,50 @@
+pipeline {
+    agent any
+    
+    tools {
+        //NodeJS Version
+        nodejs '17.6.0'
+    }
+
+    environment {
+        //Deployment directory for apache 
+        DEPLOY_DIR = '/var/www/html' 
+    }
+
+    stages {
+        stage('Install Dependencies') {
+            steps {
+                dir('frontend') {
+                    // Install Node.js dependencies
+                    sh 'npm install'
+                }
+            }
+        }
+        
+        stage('Build') {
+            steps {
+                // Build React app
+                sh 'npm run build'
+            }
+        }
+        
+        stage('Deploy') {
+            steps {
+                // Deploy built artifacts to deployment directory
+                sh 'rm -rf ${DEPLOY_DIR}/*' // Clear existing files
+                sh 'cp -r build/* ${DEPLOY_DIR}'
+            }
+        }
+    }
+
+    post {
+        success {
+            // Notify on success
+            echo 'React app successfully built and deployed.'
+        }
+        failure {
+            // Notify on failure
+            echo 'Failed to build or deploy React app.'
+        }
+    }
+}
