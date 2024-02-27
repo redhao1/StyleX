@@ -23,6 +23,8 @@ pipeline {
         
         stage('Build') {
             steps {
+                // Change directory to frontend
+                sh 'cd frontend'
                 // Build React app
                 sh 'npm run build'
             }
