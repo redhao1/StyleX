@@ -9,12 +9,15 @@ import MobileMenu from "./HeaderFooter/MobileMenu";
 import Footer from "./HeaderFooter/Footer";
 import QuickViewPopup from "./QuickViewPopup";
 import Register from "./Auth/Register";
+//const userRoutes = require('./userRoutes');
+//app.use('/api', userRoutes);
+
 
 function App() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   function toggleMobileMenu() {
-      setIsMobileMenuOpen(!isMobileMenuOpen);
+    setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
   function closeMobileMenu() {
@@ -30,7 +33,7 @@ function App() {
       <Routes>
         <Route path="/" exact element={<HomePage />} />
         <Route path="/Login" element={<Login />} />
-        <Route path="/Register" element={<Register />}/>
+        <Route path="/Register" element={<Register />} />
       </Routes>
       <Footer></Footer>
       <span id="site-scroll"><i className="icon anm anm-angle-up-r"></i></span>

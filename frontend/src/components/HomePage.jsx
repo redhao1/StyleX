@@ -5,6 +5,7 @@ import ShopFor from "./HomePage/ShopFor";
 import LogoSlider from "./LogoSlider";
 import FeaturedProduct from "./FeaturedProduct";
 import StoreFeature from "./HomePage/StoreFeature";
+//const userRoutes = require('./routes / userRoutes');
 
 function HomePage() {
   return (
