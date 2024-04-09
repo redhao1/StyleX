@@ -1,0 +1,128 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.content {
+  display: flex;
+  background-color: rgb(227, 187, 187);
+  width: 60%;
+  height: 80vh;
+  border-radius: 8px;
+  overflow: hidden;
+  
+}
+
+.imageSection {
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+}
+
+.infoSection {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.productDescription {
+  max-height: 15em;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+.price {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.prevButton, .nextButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  color:  #e33c3c; /* Adjusted as per your request */
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 10px;
+  z-index: 10;
+}
+
+.prevButton {
+  left: 10px;
+}
+
+.nextButton {
+  right: 10px;
+}
+
+.sizeAndCart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.sizeSelect {
+  padding: 5px 10px;
+  border: 2px solid  #e33c3c; /* Adjusted as per your request */
+  max-width: 70px;
+  max-width: 70px;
+  border-radius: 5px;
+}
+
+.addToCartButton {
+  background-color: #e33c3c;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.closeButton {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  border: none;
+  background: transparent;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.closeButton {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  border: none;
+  background: transparent;
+  color: rgb(226, 15, 15); /* Color of the cross */
+  font-size: 24px; /* Size of the cross */
+  cursor: pointer;
+  padding: 0; /* Adjust padding as necessary */
+  line-height: 1; /* Ensures tight fit for the icon */
+}
+
+/* You might include :hover styles for better UX */
+.closeButton:hover {
+  color: #640707; /* Slightly different shade or just more vivid when hovered */
+}
+
+.imageSection img {
+  max-width: 100%; /* Ensures the image does not overflow the container's width */
+  max-height: 100%; /* Ensures the image does not overflow the container's height */
+ /* object-fit: contain;  Scales the image to be as large as possible, maintaining aspect ratio, without cropping */
+  border-radius: 8px; /* Optional: Adds rounded corners to the image */
+}
