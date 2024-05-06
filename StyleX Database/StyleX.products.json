@@ -58,7 +58,7 @@
     }
   ],
   "productCategory": {
-    "$oid": "65f2d719aa9552bd1ed8cbb1"
+    "$oid": "66370e8342fade5680779454"
   },
   "brand": "YSL",
   "addedAt": {
@@ -71,7 +71,7 @@
   },
   "title": "Another Product",
   "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.",
-  "productDetails": "Another Product Details",
+  "productDetails": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit\nSed ut perspiciatis unde omnis iste natus error sit\nNeque porro quisquam est qui dolorem ipsum quia dolor\nLorem Ipsum is not simply random text.\nFree theme updates\nSed ut perspiciatis unde omnis iste natus error sit voluptatem\nYou can change the position of any sections such as slider, banner, products, collection and so on by just dragging and dropping. \n\nLorem Ipsum is not simply random text.\nBut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.\n\nChange colors, fonts, banners, megamenus and more. Preview changes are live before saving them.\n\n1914 translation by H. Rackham\nBut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.\n\nSection 1.10.33 of \"de Finibus Bonorum et Malorum\", written by Cicero in 45 BC\nAt vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.\n\nThe standard Lorem Ipsum passage, used since the 1500s\nYou can use variant style from colors, images or variant images. Also available differnt type of design styles and size.\n\nLorem Ipsum is not simply random text.\nBut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.\n\nProin ut lacus eget elit molestie posuere.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.",
   "variants": [
     {
       "color": "Blue",
@@ -119,7 +119,7 @@
     }
   ],
   "productCategory": {
-    "$oid": "65f2d752aa9552bd1ed8cbb2"
+    "$oid": "66370e8342fade5680779454"
   },
   "brand": "Nike",
   "addedAt": {
@@ -135,8 +135,8 @@
   "productDetails": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit\nSed ut perspiciatis unde omnis iste natus error sit\nNeque porro quisquam est qui dolorem ipsum quia dolor\nLorem Ipsum is not simply random text.\nFree theme updates\nSed ut perspiciatis unde omnis iste natus error sit voluptatem\nYou can change the position of any sections such as slider, banner, products, collection and so on by just dragging and dropping. \n\nLorem Ipsum is not simply random text.\nBut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.\n\nChange colors, fonts, banners, megamenus and more. Preview changes are live before saving them.\n\n1914 translation by H. Rackham\nBut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.\n\nSection 1.10.33 of \"de Finibus Bonorum et Malorum\", written by Cicero in 45 BC\nAt vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.\n\nThe standard Lorem Ipsum passage, used since the 1500s\nYou can use variant style from colors, images or variant images. Also available differnt type of design styles and size.\n\nLorem Ipsum is not simply random text.\nBut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.\n\nProin ut lacus eget elit molestie posuere.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.",
   "variants": [
     {
-      "color": "Red",
-      "colorImage": "variant1-1.jpg",
+      "color": "Yellow",
+      "colorImage": "product-image30.jpg",
       "info": [
         {
           "size": "S",
@@ -158,35 +158,13 @@
         }
       ],
       "images": [
-        "product-image1.jpg",
-        "product-image1-1.jpg"
-      ]
-    },
-    {
-      "color": "Black",
-      "colorImage": "variant1-2.jpg",
-      "info": [
-        {
-          "size": "S",
-          "price": 570,
-          "stock": 80,
-          "sku": "ABC4561"
-        },
-        {
-          "size": "M",
-          "price": 580,
-          "stock": 0,
-          "sku": "ABC5671"
-        }
-      ],
-      "images": [
-        "camelia-reversible-big3.jpg",
-        "camelia-reversible-big4.jpg"
+        "product-image30.jpg",
+        "product-image30-1.jpg"
       ]
     }
   ],
   "productCategory": {
-    "$oid": "65f2d719aa9552bd1ed8cbb1"
+    "$oid": "66370e2442fade5680779453"
   },
   "brand": "YSL",
   "addedAt": {
@@ -202,8 +180,8 @@
   "productDetails": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit\nSed ut perspiciatis unde omnis iste natus error sit\nNeque porro quisquam est qui dolorem ipsum quia dolor\nLorem Ipsum is not simply random text.\nFree theme updates\nSed ut perspiciatis unde omnis iste natus error sit voluptatem\nYou can change the position of any sections such as slider, banner, products, collection and so on by just dragging and dropping. \n\nLorem Ipsum is not simply random text.\nBut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.\n\nChange colors, fonts, banners, megamenus and more. Preview changes are live before saving them.\n\n1914 translation by H. Rackham\nBut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.\n\nSection 1.10.33 of \"de Finibus Bonorum et Malorum\", written by Cicero in 45 BC\nAt vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.\n\nThe standard Lorem Ipsum passage, used since the 1500s\nYou can use variant style from colors, images or variant images. Also available differnt type of design styles and size.\n\nLorem Ipsum is not simply random text.\nBut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.\n\nProin ut lacus eget elit molestie posuere.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.",
   "variants": [
     {
-      "color": "Red",
-      "colorImage": "variant1-1.jpg",
+      "color": "White",
+      "colorImage": "product-image31.jpg",
       "info": [
         {
           "size": "S",
@@ -219,13 +197,430 @@
         }
       ],
       "images": [
-        "product-image1.jpg",
-        "product-image1-1.jpg"
+        "product-image31.jpg",
+        "product-image31-1.jpg"
+      ]
+    }
+  ],
+  "productCategory": {
+    "$oid": "65f2d789aa9552bd1ed8cbb3"
+  },
+  "brand": "YSL",
+  "addedAt": {
+    "$date": "2024-04-19T12:30:45.678Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66393a042b99f17aac83da64"
+  },
+  "title": "Product Title",
+  "about": "Belle Multipurpose Bootstrap 4 Html Template that will give you and your customers a smooth shopping experience which can be used for various kinds of stores such as fashion.",
+  "productDetails": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit\nSed ut perspiciatis unde omnis iste natus error sit\nNeque porro quisquam est qui dolorem ipsum quia dolor\nLorem Ipsum is not simply random text.\nFree theme updates\nSed ut perspiciatis unde omnis iste natus error sit voluptatem\nYou can change the position of any sections such as slider, banner, products, collection and so on by just dragging and dropping. \n\nLorem Ipsum is not simply random text.\nBut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.\n\nChange colors, fonts, banners, megamenus and more. Preview changes are live before saving them.\n\n1914 translation by H. Rackham\nBut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.\n\nSection 1.10.33 of \"de Finibus Bonorum et Malorum\", written by Cicero in 45 BC\nAt vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.\n\nThe standard Lorem Ipsum passage, used since the 1500s\nYou can use variant style from colors, images or variant images. Also available differnt type of design styles and size.\n\nLorem Ipsum is not simply random text.\nBut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.\n\nProin ut lacus eget elit molestie posuere.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.",
+  "variants": [
+    {
+      "color": "Grey",
+      "colorImage": "product-image27.jpg",
+      "info": [
+        {
+          "size": "S",
+          "price": 470,
+          "stock": 10,
+          "sku": "GDH768"
+        },
+        {
+          "size": "M",
+          "price": 480,
+          "stock": 0,
+          "sku": "KJU345"
+        }
+      ],
+      "images": [
+        "product-image27.jpg",
+        "product-image27-1.jpg"
+      ]
+    }
+  ],
+  "productCategory": {
+    "$oid": "65f2d789aa9552bd1ed8cbb3"
+  },
+  "brand": "YSL",
+  "addedAt": {
+    "$date": "2024-04-19T12:30:45.678Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66393b102b99f17aac83da65"
+  },
+  "title": "Product Title",
+  "about": "Belle Multipurpose Bootstrap 4 Html Template that will give you and your customers a smooth shopping experience which can be used for various kinds of stores such as fashion.",
+  "productDetails": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit\nSed ut perspiciatis unde omnis iste natus error sit\nNeque porro quisquam est qui dolorem ipsum quia dolor\nLorem Ipsum is not simply random text.\nFree theme updates\nSed ut perspiciatis unde omnis iste natus error sit voluptatem\nYou can change the position of any sections such as slider, banner, products, collection and so on by just dragging and dropping. \n\nLorem Ipsum is not simply random text.\nBut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.\n\nChange colors, fonts, banners, megamenus and more. Preview changes are live before saving them.\n\n1914 translation by H. Rackham\nBut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.\n\nSection 1.10.33 of \"de Finibus Bonorum et Malorum\", written by Cicero in 45 BC\nAt vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.\n\nThe standard Lorem Ipsum passage, used since the 1500s\nYou can use variant style from colors, images or variant images. Also available differnt type of design styles and size.\n\nLorem Ipsum is not simply random text.\nBut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.\n\nProin ut lacus eget elit molestie posuere.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.",
+  "variants": [
+    {
+      "color": "Red",
+      "colorImage": "product-image28.jpg",
+      "info": [
+        {
+          "size": "S",
+          "price": 470,
+          "stock": 10,
+          "sku": "BCG678"
+        },
+        {
+          "size": "M",
+          "price": 480,
+          "stock": 0,
+          "sku": "KLJ789"
+        }
+      ],
+      "images": [
+        "product-image28.jpg",
+        "product-image28-1.jpg"
+      ]
+    }
+  ],
+  "productCategory": {
+    "$oid": "65f2d789aa9552bd1ed8cbb3"
+  },
+  "brand": "YSL",
+  "addedAt": {
+    "$date": "2024-04-19T12:30:45.678Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66393be12b99f17aac83da66"
+  },
+  "title": "Product Title",
+  "about": "Belle Multipurpose Bootstrap 4 Html Template that will give you and your customers a smooth shopping experience which can be used for various kinds of stores such as fashion.",
+  "productDetails": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit\nSed ut perspiciatis unde omnis iste natus error sit\nNeque porro quisquam est qui dolorem ipsum quia dolor\nLorem Ipsum is not simply random text.\nFree theme updates\nSed ut perspiciatis unde omnis iste natus error sit voluptatem\nYou can change the position of any sections such as slider, banner, products, collection and so on by just dragging and dropping. \n\nLorem Ipsum is not simply random text.\nBut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.\n\nChange colors, fonts, banners, megamenus and more. Preview changes are live before saving them.\n\n1914 translation by H. Rackham\nBut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.\n\nSection 1.10.33 of \"de Finibus Bonorum et Malorum\", written by Cicero in 45 BC\nAt vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.\n\nThe standard Lorem Ipsum passage, used since the 1500s\nYou can use variant style from colors, images or variant images. Also available differnt type of design styles and size.\n\nLorem Ipsum is not simply random text.\nBut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.\n\nProin ut lacus eget elit molestie posuere.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.",
+  "variants": [
+    {
+      "color": "Pink",
+      "colorImage": "product-image22.jpg",
+      "info": [
+        {
+          "size": "S",
+          "price": 470,
+          "stock": 10,
+          "sku": "DFG567"
+        },
+        {
+          "size": "M",
+          "price": 480,
+          "stock": 0,
+          "sku": "KJH789"
+        }
+      ],
+      "images": [
+        "product-image22.jpg",
+        "product-image22-1.jpg"
+      ]
+    }
+  ],
+  "productCategory": {
+    "$oid": "66370e2442fade5680779453"
+  },
+  "brand": "Chanel",
+  "addedAt": {
+    "$date": "2024-04-19T12:30:45.678Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66393cfa2b99f17aac83da67"
+  },
+  "title": "Product Title",
+  "about": "Belle Multipurpose Bootstrap 4 Html Template that will give you and your customers a smooth shopping experience which can be used for various kinds of stores such as fashion.",
+  "productDetails": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit\nSed ut perspiciatis unde omnis iste natus error sit\nNeque porro quisquam est qui dolorem ipsum quia dolor\nLorem Ipsum is not simply random text.\nFree theme updates\nSed ut perspiciatis unde omnis iste natus error sit voluptatem\nYou can change the position of any sections such as slider, banner, products, collection and so on by just dragging and dropping. \n\nLorem Ipsum is not simply random text.\nBut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.\n\nChange colors, fonts, banners, megamenus and more. Preview changes are live before saving them.\n\n1914 translation by H. Rackham\nBut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.\n\nSection 1.10.33 of \"de Finibus Bonorum et Malorum\", written by Cicero in 45 BC\nAt vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.\n\nThe standard Lorem Ipsum passage, used since the 1500s\nYou can use variant style from colors, images or variant images. Also available differnt type of design styles and size.\n\nLorem Ipsum is not simply random text.\nBut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.\n\nProin ut lacus eget elit molestie posuere.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.",
+  "variants": [
+    {
+      "color": "Blue",
+      "colorImage": "home7-product3.jpg",
+      "info": [
+        {
+          "size": "S",
+          "price": 470,
+          "stock": 10,
+          "sku": "FGH853"
+        },
+        {
+          "size": "M",
+          "price": 480,
+          "stock": 0,
+          "sku": "KNH987"
+        },
+        {
+          "size": "L",
+          "price": 490,
+          "stock": 30,
+          "sku": "BHU864"
+        }
+      ],
+      "images": [
+        "home7-product3.jpg",
+        "home7-product3.jpg"
+      ]
+    },
+    {
+      "color": "Red",
+      "colorImage": "home7-product3-1.jpg",
+      "info": [
+        {
+          "size": "S",
+          "price": 570,
+          "stock": 80,
+          "sku": "HGT567"
+        },
+        {
+          "size": "M",
+          "price": 580,
+          "stock": 0,
+          "sku": "GHF456"
+        }
+      ],
+      "images": [
+        "home7-product3-1.jpg",
+        "home7-product3-1.jpg"
+      ]
+    }
+  ],
+  "productCategory": {
+    "$oid": "66370e9842fade5680779456"
+  },
+  "brand": "Christian Louboutin",
+  "addedAt": {
+    "$date": "2024-05-03T12:30:45.678Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66393e432b99f17aac83da68"
+  },
+  "title": "Product Title",
+  "about": "Belle Multipurpose Bootstrap 4 Html Template that will give you and your customers a smooth shopping experience which can be used for various kinds of stores such as fashion.",
+  "productDetails": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit\nSed ut perspiciatis unde omnis iste natus error sit\nNeque porro quisquam est qui dolorem ipsum quia dolor\nLorem Ipsum is not simply random text.\nFree theme updates\nSed ut perspiciatis unde omnis iste natus error sit voluptatem\nYou can change the position of any sections such as slider, banner, products, collection and so on by just dragging and dropping. \n\nLorem Ipsum is not simply random text.\nBut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.\n\nChange colors, fonts, banners, megamenus and more. Preview changes are live before saving them.\n\n1914 translation by H. Rackham\nBut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.\n\nSection 1.10.33 of \"de Finibus Bonorum et Malorum\", written by Cicero in 45 BC\nAt vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.\n\nThe standard Lorem Ipsum passage, used since the 1500s\nYou can use variant style from colors, images or variant images. Also available differnt type of design styles and size.\n\nLorem Ipsum is not simply random text.\nBut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.\n\nProin ut lacus eget elit molestie posuere.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.",
+  "variants": [
+    {
+      "color": "Blue",
+      "colorImage": "home7-product4.jpg",
+      "info": [
+        {
+          "size": "M",
+          "price": 470,
+          "stock": 10,
+          "sku": "NKO789"
+        },
+        {
+          "size": "L",
+          "price": 480,
+          "stock": 0,
+          "sku": "ZAQ345"
+        }
+      ],
+      "images": [
+        "home7-product4.jpg",
+        "home7-product4-1.jpg"
+      ]
+    }
+  ],
+  "productCategory": {
+    "$oid": "66370e9842fade5680779456"
+  },
+  "brand": "PRADA",
+  "addedAt": {
+    "$date": "2024-05-03T12:30:45.678Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66393f602b99f17aac83da69"
+  },
+  "title": "Product Title",
+  "about": "Belle Multipurpose Bootstrap 4 Html Template that will give you and your customers a smooth shopping experience which can be used for various kinds of stores such as fashion.",
+  "productDetails": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit\nSed ut perspiciatis unde omnis iste natus error sit\nNeque porro quisquam est qui dolorem ipsum quia dolor\nLorem Ipsum is not simply random text.\nFree theme updates\nSed ut perspiciatis unde omnis iste natus error sit voluptatem\nYou can change the position of any sections such as slider, banner, products, collection and so on by just dragging and dropping. \n\nLorem Ipsum is not simply random text.\nBut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.\n\nChange colors, fonts, banners, megamenus and more. Preview changes are live before saving them.\n\n1914 translation by H. Rackham\nBut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.\n\nSection 1.10.33 of \"de Finibus Bonorum et Malorum\", written by Cicero in 45 BC\nAt vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.\n\nThe standard Lorem Ipsum passage, used since the 1500s\nYou can use variant style from colors, images or variant images. Also available differnt type of design styles and size.\n\nLorem Ipsum is not simply random text.\nBut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.\n\nProin ut lacus eget elit molestie posuere.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.",
+  "variants": [
+    {
+      "color": "White",
+      "colorImage": "product-image43.jpg",
+      "info": [
+        {
+          "size": "M",
+          "price": 480,
+          "stock": 0,
+          "sku": "LKI980"
+        },
+        {
+          "size": "L",
+          "price": 490,
+          "stock": 30,
+          "sku": "HJU890"
+        }
+      ],
+      "images": [
+        "product-image43.jpg",
+        "product-image43.jpg"
+      ]
+    },
+    {
+      "color": "Black",
+      "colorImage": "product-image44.jpg",
+      "info": [
+        {
+          "size": "S",
+          "price": 570,
+          "stock": 80,
+          "sku": "YUB654"
+        },
+        {
+          "size": "L",
+          "price": 580,
+          "stock": 0,
+          "sku": "OIH890"
+        }
+      ],
+      "images": [
+        "product-image44.jpg",
+        "product-image44.jpg"
+      ]
+    },
+    {
+      "color": "Blue",
+      "colorImage": "product-image45.jpg",
+      "info": [
+        {
+          "size": "M",
+          "price": 570,
+          "stock": 80,
+          "sku": "TYB890"
+        }
+      ],
+      "images": [
+        "product-image45.jpg",
+        "product-image45.jpg"
       ]
     }
   ],
   "productCategory": {
     "$oid": "65f2d752aa9552bd1ed8cbb2"
+  },
+  "brand": "YSL",
+  "addedAt": {
+    "$date": "2024-05-03T12:30:45.678Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6639409e2b99f17aac83da6a"
+  },
+  "title": "Product Title",
+  "about": "Belle Multipurpose Bootstrap 4 Html Template that will give you and your customers a smooth shopping experience which can be used for various kinds of stores such as fashion.",
+  "productDetails": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit\nSed ut perspiciatis unde omnis iste natus error sit\nNeque porro quisquam est qui dolorem ipsum quia dolor\nLorem Ipsum is not simply random text.\nFree theme updates\nSed ut perspiciatis unde omnis iste natus error sit voluptatem\nYou can change the position of any sections such as slider, banner, products, collection and so on by just dragging and dropping. \n\nLorem Ipsum is not simply random text.\nBut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.\n\nChange colors, fonts, banners, megamenus and more. Preview changes are live before saving them.\n\n1914 translation by H. Rackham\nBut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.\n\nSection 1.10.33 of \"de Finibus Bonorum et Malorum\", written by Cicero in 45 BC\nAt vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.\n\nThe standard Lorem Ipsum passage, used since the 1500s\nYou can use variant style from colors, images or variant images. Also available differnt type of design styles and size.\n\nLorem Ipsum is not simply random text.\nBut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.\n\nProin ut lacus eget elit molestie posuere.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.",
+  "variants": [
+    {
+      "color": "Black",
+      "colorImage": "product-image46.jpg",
+      "info": [
+        {
+          "size": "M",
+          "price": 480,
+          "stock": 0,
+          "sku": "HJI890"
+        }
+      ],
+      "images": [
+        "product-image46.jpg",
+        "product-image46-1.jpg"
+      ]
+    }
+  ],
+  "productCategory": {
+    "$oid": "65f2d719aa9552bd1ed8cbb1"
+  },
+  "brand": "YSL",
+  "addedAt": {
+    "$date": "2024-04-19T12:30:45.678Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6639414f2b99f17aac83da6b"
+  },
+  "title": "Product Title",
+  "about": "Belle Multipurpose Bootstrap 4 Html Template that will give you and your customers a smooth shopping experience which can be used for various kinds of stores such as fashion.",
+  "productDetails": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit\nSed ut perspiciatis unde omnis iste natus error sit\nNeque porro quisquam est qui dolorem ipsum quia dolor\nLorem Ipsum is not simply random text.\nFree theme updates\nSed ut perspiciatis unde omnis iste natus error sit voluptatem\nYou can change the position of any sections such as slider, banner, products, collection and so on by just dragging and dropping. \n\nLorem Ipsum is not simply random text.\nBut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.\n\nChange colors, fonts, banners, megamenus and more. Preview changes are live before saving them.\n\n1914 translation by H. Rackham\nBut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.\n\nSection 1.10.33 of \"de Finibus Bonorum et Malorum\", written by Cicero in 45 BC\nAt vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.\n\nThe standard Lorem Ipsum passage, used since the 1500s\nYou can use variant style from colors, images or variant images. Also available differnt type of design styles and size.\n\nLorem Ipsum is not simply random text.\nBut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.\n\nProin ut lacus eget elit molestie posuere.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.",
+  "variants": [
+    {
+      "color": "Blue",
+      "colorImage": "product-image33-1.jpg",
+      "info": [
+        {
+          "size": "S",
+          "price": 480,
+          "stock": 0,
+          "sku": "KJD673"
+        },
+        {
+          "size": "M",
+          "price": 480,
+          "stock": 0,
+          "sku": "FJT846"
+        }
+      ],
+      "images": [
+        "product-image33-1.jpg",
+        "product-image33-1.jpg"
+      ]
+    }
+  ],
+  "productCategory": {
+    "$oid": "65f2d719aa9552bd1ed8cbb1"
+  },
+  "brand": "YSL",
+  "addedAt": {
+    "$date": "2024-04-19T12:30:45.678Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "663941eb2b99f17aac83da6c"
+  },
+  "title": "Product Title",
+  "about": "Belle Multipurpose Bootstrap 4 Html Template that will give you and your customers a smooth shopping experience which can be used for various kinds of stores such as fashion.",
+  "productDetails": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit\nSed ut perspiciatis unde omnis iste natus error sit\nNeque porro quisquam est qui dolorem ipsum quia dolor\nLorem Ipsum is not simply random text.\nFree theme updates\nSed ut perspiciatis unde omnis iste natus error sit voluptatem\nYou can change the position of any sections such as slider, banner, products, collection and so on by just dragging and dropping. \n\nLorem Ipsum is not simply random text.\nBut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.\n\nChange colors, fonts, banners, megamenus and more. Preview changes are live before saving them.\n\n1914 translation by H. Rackham\nBut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.\n\nSection 1.10.33 of \"de Finibus Bonorum et Malorum\", written by Cicero in 45 BC\nAt vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.\n\nThe standard Lorem Ipsum passage, used since the 1500s\nYou can use variant style from colors, images or variant images. Also available differnt type of design styles and size.\n\nLorem Ipsum is not simply random text.\nBut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.\n\nProin ut lacus eget elit molestie posuere.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.",
+  "variants": [
+    {
+      "color": "Grey",
+      "colorImage": "product-image48.jpg",
+      "info": [
+        {
+          "size": "S",
+          "price": 480,
+          "stock": 0,
+          "sku": "HFG567"
+        },
+        {
+          "size": "M",
+          "price": 480,
+          "stock": 0,
+          "sku": "HJF678"
+        },
+        {
+          "size": "L",
+          "price": 480,
+          "stock": 0,
+          "sku": "DIR690"
+        }
+      ],
+      "images": [
+        "product-image48.jpg",
+        "product-image48-1.jpg"
+      ]
+    }
+  ],
+  "productCategory": {
+    "$oid": "65f2d719aa9552bd1ed8cbb1"
   },
   "brand": "YSL",
   "addedAt": {
