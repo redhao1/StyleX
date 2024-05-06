@@ -1,0 +1,77 @@
+[{
+  "_id": {
+    "$oid": "65f2d719aa9552bd1ed8cbb1"
+  },
+  "gender": {
+    "$oid": "65f16798aa9552bd1ed8cb9a"
+  },
+  "category": {
+    "$oid": "65f1684eaa9552bd1ed8cb9d"
+  }
+},
+{
+  "_id": {
+    "$oid": "65f2d752aa9552bd1ed8cbb2"
+  },
+  "gender": {
+    "$oid": "65f16798aa9552bd1ed8cb9a"
+  },
+  "category": {
+    "$oid": "65f1bcecaa9552bd1ed8cba8"
+  }
+},
+{
+  "_id": {
+    "$oid": "65f2d789aa9552bd1ed8cbb3"
+  },
+  "gender": {
+    "$oid": "65f16809aa9552bd1ed8cb9b"
+  },
+  "category": {
+    "$oid": "65f1684eaa9552bd1ed8cb9d"
+  }
+},
+{
+  "_id": {
+    "$oid": "66370e2442fade5680779453"
+  },
+  "gender": {
+    "$oid": "65f16809aa9552bd1ed8cb9b"
+  },
+  "category": {
+    "$oid": "65f1bcecaa9552bd1ed8cba8"
+  }
+},
+{
+  "_id": {
+    "$oid": "66370e8342fade5680779454"
+  },
+  "gender": {
+    "$oid": "65f16809aa9552bd1ed8cb9b"
+  },
+  "category": {
+    "$oid": "66370ce542fade568077944c"
+  }
+},
+{
+  "_id": {
+    "$oid": "66370e8b42fade5680779455"
+  },
+  "gender": {
+    "$oid": "65f16809aa9552bd1ed8cb9b"
+  },
+  "category": {
+    "$oid": "66370cfc42fade568077944d"
+  }
+},
+{
+  "_id": {
+    "$oid": "66370e9842fade5680779456"
+  },
+  "gender": {
+    "$oid": "65f16809aa9552bd1ed8cb9b"
+  },
+  "category": {
+    "$oid": "66370d1b42fade568077944e"
+  }
+}]

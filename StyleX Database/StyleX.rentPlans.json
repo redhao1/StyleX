@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "66372d4b42fade5680779460"
+  },
+  "name": "Standard",
+  "price": 99.99
+},
+{
+  "_id": {
+    "$oid": "66372dc242fade568077946b"
+  },
+  "name": "Mordern",
+  "price": 199.99
+},
+{
+  "_id": {
+    "$oid": "66372dcd42fade568077946c"
+  },
+  "name": "Premium",
+  "price": 299.99
+}]

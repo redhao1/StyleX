@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "663708c37a12aece536c8805"
+  },
+  "userId": {
+    "$oid": "6636ee3a22881971dcc05452"
+  },
+  "__v": 0,
+  "addressLine1": "777 Bridge St",
+  "addressLine2": "",
+  "apartment": "",
+  "city": "Heaven",
+  "country": {
+    "$oid": "6632c1c73e1c2dbe5c16a50b"
+  },
+  "postCode": "077678",
+  "state": {
+    "$oid": "6632c5809436005ae8ec19b4"
+  },
+  "telephone": "0123456789"
+}]

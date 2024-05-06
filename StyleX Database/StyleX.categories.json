@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "65f1684eaa9552bd1ed8cb9d"
+  },
+  "name": "Tops"
+},
+{
+  "_id": {
+    "$oid": "65f1bcecaa9552bd1ed8cba8"
+  },
+  "name": "Bottoms"
+},
+{
+  "_id": {
+    "$oid": "66370ce542fade568077944c"
+  },
+  "name": "Sweaters"
+},
+{
+  "_id": {
+    "$oid": "66370cfc42fade568077944d"
+  },
+  "name": "Caps"
+},
+{
+  "_id": {
+    "$oid": "66370d1b42fade568077944e"
+  },
+  "name": "Shoes"
+}]
