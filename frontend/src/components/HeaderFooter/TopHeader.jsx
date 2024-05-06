@@ -61,16 +61,22 @@ function TopHeader() {
             font-size: 16px;
             box-shadow: black; // Adding a subtle shadow for better visibility
           }
+          .customer-links a {
+            font-size: 16px; // Adjust font size as needed
+            color: #333; // Adjust color as needed
+            text-decoration: none; // Remove underline
+            margin-right: 10px; // Add some margin between links
+          }
       `}</style>
-      <div className="top-header">
+      <div className="top-header" style={{ padding: "30px 0" }}>
         <div className="container-fluid">
           <div className="row">
-            <div className="col-10 col-sm-8 col-md-5 col-lg-4">
+            <div className="col-15 col-sm-8 col-md-5 col-lg-4">
               {/* Currency picker and other UI elements remain unchanged */}
             </div>
-            <div className="col-sm-4 col-md-4 col-lg-4 d-none d-lg-block">
+            <div className="col-15 col-sm-8 col-md-5 col-lg-4 d-none d-lg-block">
               <div className="text-center">
-                <p className="top-header_middle-text default-cursor">
+                <p className="top-header_middle-text default-cursor" style={{fontSize: '20px'}}>
                   Worldwide Express Shipping
                 </p>
               </div>

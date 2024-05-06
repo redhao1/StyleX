@@ -15,6 +15,7 @@ import ProductGallery from "./gallary/ProductGallery";
 import sweatersData from "./data/sweaters";
 import jeansData from "./data/jeans";
 import topsData from "./data/tops";
+import Supplier from "./Supplier/SupplierUser";
 //const userRoutes = require('./userRoutes');
 //app.use('/api', userRoutes);
 
@@ -31,7 +32,7 @@ function App() {
 
   return (
     <div>
-      <SearchForm></SearchForm>
+      
       <MobileMenu
         isMobileMenuOpen={isMobileMenuOpen}
         closeMobileMenu={closeMobileMenu}
@@ -42,6 +43,8 @@ function App() {
         <Route path="/" exact element={<HomePage />} />
         <Route path="/Login" element={<Login />} />
         <Route path="/Register" element={<Register />} />
+        
+        <Route path="/Supplier" element={<Supplier/>}/>
         {/* { <Route path="/cap" element={<Caps/>} />} */}
         <Route
           path="/caps"

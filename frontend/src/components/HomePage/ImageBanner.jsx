@@ -11,7 +11,7 @@ function HomeSlider () {
                         	<div class="img-bnr" onClick={() => navigate("/caps")}>
                             	<div class="inner center">
                                 	<a>
-                                   		<img data-src="assets/images/collection/modern1.jpg" src="assets/images/collection/modern1.jpg" alt="Cap" title="Cap" class="blur-up lazyload" />
+                                   		<img data-src="assets/images/collection/VersaceCap2.png" src="assets/images/collection/modern1.jpg" alt="Cap" title="Cap" class="blur-up lazyload" />
                                         <span class="ttl">Cap</span>
                                     </a>
                                 </div>
@@ -28,8 +28,8 @@ function HomeSlider () {
                         <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                         	<div class="inner center" onClick={() => navigate("/tops")}>
                                 <a>
-                                    <img data-src="assets/images/collection/modern3.jpg" src="assets/images/collection/modern3.jpg" alt="Tops" title="Tops" class="blur-up lazyload" />
-                                    <span class="ttl">Tops</span>
+                                    <img data-src="assets/images/collection/GucciTee.jpg" src="assets/images/collection/modern3.jpg" alt="Tops" title="Tops" class="blur-up lazyload" />
+                                    <span class="ttl">Topwear</span>
                                 </a>
                             </div>
                         </div>
@@ -42,7 +42,7 @@ function HomeSlider () {
                             </div>
                             <div class="inner center" onClick={() => navigate("/shoes")}>
                                 <a>
-                                    <img data-src="assets/images/collection/modern5.jpg" src="assets/images/collection/modern5.jpg" alt="Shoes" title="Shoes" class="blur-up lazyload" />
+                                    <img data-src="assets/images/collection/shoesLuxury.webp" src="assets/images/collection/modern5.jpg" alt="Shoes" title="Shoes" class="blur-up lazyload" />
                                     <span class="ttl">Shoes</span>
                                 </a>
                             </div>
