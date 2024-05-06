@@ -1,0 +1,5 @@
+Step 1 : Import all the StyleX database files into a MongoDB database with name "StyleX".
+Step 2 : Run command "npm install" for frontend and backend folders.
+Step 3 : Run commands "cd backend" and "nodemon app.js".
+Step 4 : Open another terminal.
+Step 5 : Run commands "cd frontend" and "npm start".
