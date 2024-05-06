@@ -64,7 +64,6 @@ Table of Content:
 @import url('http://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700&amp;display=swap');
 @import url('http://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&amp;display=swap');
 
-
 /*======================================================================
   2. Basic Styles
 ========================================================================*/
@@ -1662,3 +1661,8 @@ body.home15-funiture-template { font-size:14px; }
 
 .blur-up.lazyloaded { -webkit-filter:blur(0); filter:blur(0); }
 .blur-up { -webkit-filter:blur(5px); filter:blur(5px); transition:filter 400ms, -webkit-filter 400ms; -webkit-transition:filter 400ms, -webkit-filter 400ms; }
+
+/* Add space between photos */
+.item {
+  padding: 0 15px;
+}

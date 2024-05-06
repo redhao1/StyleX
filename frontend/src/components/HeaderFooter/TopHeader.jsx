@@ -1,14 +1,14 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
-function TopHeader() {
+function TopHeader(props) {
 
     const [isMobileView, setMobileView] = useState(false);
 
     function handleMobileView() {
         setMobileView(!isMobileView);
     }
-
+    
     return(
         <div className="top-header">
         <div className="container-fluid">
@@ -41,9 +41,19 @@ function TopHeader() {
                 <div className="col-2 col-sm-4 col-md-3 col-lg-4 text-right">
                 	<span className="user-menu d-block d-lg-none"><a onClick={handleMobileView}><i className="anm anm-user-al" aria-hidden="true"></i></a></span>
                     <ul className="customer-links list-inline" style={isMobileView ? {display: 'block'} : {}}>
-                        <li><Link to="/Login">Login</Link></li>
-                        <li><Link to="/Register">Create Account</Link></li>
-                        <li><a href="wishlist.html">Wishlist</a></li>
+                        <li><Link to="/Wishlist">Wishlist</Link></li>
+                        <li><Link to="/Order">Orders</Link></li>
+                        {props.isUser ? 
+                            <>
+                                <li><Link to={"/UserProfile"}>Profile</Link></li>
+                                <li><Link onClick={props.logoutUser}>Logout</Link></li>
+                            </>
+                            :
+                            <>
+                                <li><Link to="/Login">Login</Link></li>
+                                <li><Link to="/Register">Create Account</Link></li>
+                            </>
+                        }
                     </ul>
                 </div>
             </div>

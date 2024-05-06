@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function CollectionBoxSlider() {
     return(
@@ -18,17 +19,17 @@ function CollectionBoxSlider() {
                                 <a href="#">Warm layers, fall colors and trendy styles are here for fall!</a>   
                             </h4>
                             <div className="rte-setting"><p>UP TO 60% OFF </p></div>
-                            <a className="btn" href="#">Shop Women's</a>
+                            <Link className="btn" to="/ShopByGender/65f16809aa9552bd1ed8cb9b">Shop Women's</Link>
                         </div>
                     </div>
                     <div className="col-12 col-sm-3 col-md-3 col-lg-3">
                         <div className="custom-text text-center">
-                            <img className="blur-up lazyload" data-src="assets/images/collection/shoes-collection1.jpg" src="assets/images/collection/shoes-collection1.jpg" alt="" title="" />
+                            <img className="blur-up lazyload" data-src="/assets/images/collection/shoes-collection1.jpg" src="assets/images/collection/shoes-collection1.jpg" alt="" title="" />
                         </div>
                     </div>
                     <div className="col-12 col-sm-3 col-md-3 col-lg-3">
                         <div className="custom-text text-center">
-                            <img className="blur-up lazyload" data-src="assets/images/collection/shoes-collection2.jpg" src="assets/images/collection/shoes-collection2.jpg" alt="" title="" />
+                            <img className="blur-up lazyload" data-src="/assets/images/collection/shoes-collection2.jpg" src="assets/images/collection/shoes-collection2.jpg" alt="" title="" />
                         </div>
                     </div>
                     <div className="col-12 col-sm-3 col-md-3 col-lg-3">
@@ -37,7 +38,7 @@ function CollectionBoxSlider() {
                                 <a href="#">Stay warm and look cool in fall styles for guys!</a>   
                             </h4>
                             <div className="rte-setting"><p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, velit...</p></div>
-                            <a className="btn" href="#">Shop Men's</a>
+                            <Link className="btn" to="/ShopByGender/65f16798aa9552bd1ed8cb9a">Shop Men's</Link>
                         </div>
                     </div>
                 </div>
