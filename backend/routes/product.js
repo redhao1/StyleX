@@ -161,5 +161,34 @@ router.get("/getRecentProducts", async (req, res) => {
   }
 });
 
+router.get("/getRandomProducts", async (req, res) => {
+  try {
+    const result = await Schemas.Product.aggregate([
+      { $sample: { size: 4 } },
+      {
+        $project: {
+          title: 1,
+          image: {
+            $arrayElemAt: ["$variants.images", 0],
+          },
+        },
+      },
+      {
+        $project: {
+          title: 1,
+          image: { $arrayElemAt: ["$image", 0] },
+        },
+      },
+    ]);
+
+    if (result.length) {
+      res.status(200).json({ message: 'Random 7 products fetched successfully.', result: result });
+    } else {
+      res.status(404).json({ message: 'No products found for the given category.' });
+    }
+  } catch (error) {
+    res.status(500).json({ message: 'Error fetching products:', error: error.message });
+  }
+});
 
 module.exports = router;

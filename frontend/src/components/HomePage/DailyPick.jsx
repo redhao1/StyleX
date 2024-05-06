@@ -1,6 +1,39 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import Item from "./DailyPick/Item";
+import axios from "axios";
 
 function CollectionTabSlider() {
+
+   const [products, setProducts] = useState([{
+      id: "",
+      title: "",
+      image: "",
+    }]);
+
+   async function getRandomProducts() {
+      try {
+        const response = await axios.get("/Product/getRandomProducts");
+        if (response.status === 200) {
+         let updatedProducts = response.data.result.map((item) => ({
+            id: item._id,
+            title: item.title,
+            image: item.image,
+         }));
+
+         while (updatedProducts.length < 4) {
+            updatedProducts = [...updatedProducts, ...updatedProducts];
+         }
+
+         setProducts(updatedProducts.slice(0, 4));
+        }
+      } catch (error) {
+         setProducts([]);
+      }
+   }
+
+   useEffect(() => {
+      getRandomProducts();
+   }, []);
         
     return (
         <div className="section featured-column">
@@ -8,47 +41,14 @@ function CollectionTabSlider() {
             	<div className="row">
                     <div className="col-12 col-sm-12 col-md-12 col-lg-12">
                         <div className="section-header text-center">
-                            <h2 className="h2">Picks of the day</h2>
+                            <h2 className="h2">Random Picks</h2>
                         </div>
                     </div>
                 </div>
                 <div className="row">
-                	{/*Featured Item*/}
-                	 <div className="col-12 col-sm-6 col-md-4 col-lg-4 text-center">
-                     	<p>
-                           <a href="#">   
-                              <img className="blur-up lazyload" data-src="assets/images/collection/modern-fi-1.jpg" src="assets/images/collection/modern-fi-1.jpg" alt="feature-row__image" />
-                           </a> 
-                        </p>
-                        <h3 className="h4"><a href="#">NEW-SEASON SUITS</a></h3>
-                        <div className="rte-setting"><p>Suitability game strong</p></div>
-                        <a href="#" className="btn no-border">Shop The Edit</a>
-                     </div>
-                     {/*End Featured Item*/}
-                     {/*Featured Item*/}
-                     <div className="col-12 col-sm-6 col-md-4 col-lg-4 text-center">
-                     	<p>
-                           <a href="#">   
-                              <img className="blur-up lazyload" data-src="assets/images/collection/modern-fi-2.jpg" src="assets/images/collection/modern-fi-2.jpg" alt="feature-row__image" />
-                           </a> 
-                        </p>
-                        <h3 className="h4"><a href="#">STANDOUT SEQUINS</a></h3>
-                        <div className="rte-setting"><p>Studio 2018</p></div>
-                        <a href="#" className="btn no-border">Shop Now</a>
-                     </div>
-                     {/*End Featured Item*/}
-                     {/*Featured Item*/}
-                     <div className="col-12 col-sm-6 col-md-4 col-lg-4 text-center">
-                     	<p>
-                           <a href="#">   
-                              <img className="blur-up lazyload" data-src="assets/images/collection/modern-fi-3.jpg" src="assets/images/collection/modern-fi-3.jpg" alt="feature-row__image" />
-                           </a> 
-                        </p>
-                        <h3 className="h4"><a href="#">COLD-WEATHER ACCESSORIES</a></h3>
-                        <div className="rte-setting"><p>Coats are only the beginning</p></div>
-                        <a href="#" className="btn no-border">Shop The Edit</a>
-                     </div>
-                     {/*End Featured Item*/}
+                  {products.map((row) => (
+                     <Item title={row.title} productId={row.id} image={row.image}/>
+                  ))}
                 </div>
             </div>
         </div>

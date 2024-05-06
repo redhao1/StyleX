@@ -34,6 +34,7 @@ function RecentProducts(props) {
         }
       } catch (error) {}
     }
+    
     getRecentProducts();
   }, []);
 
