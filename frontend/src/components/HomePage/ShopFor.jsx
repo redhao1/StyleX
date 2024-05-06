@@ -36,7 +36,7 @@ function CollectionBoxSlider() {
                             <h4 className="h3">
                                 <a href="#">Stay warm and look cool in fall styles for guys!</a>   
                             </h4>
-                            <div className="rte-setting"><p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, velit...</p></div>
+                            <div className="rte-setting"><p>UP TO 30% OFF<br/>ON SELECTED ITEMS</p></div>
                             <a className="btn" href="#">Shop Men's</a>
                         </div>
                     </div>

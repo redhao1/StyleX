@@ -69,7 +69,7 @@ function Header(props) {
                             <li><a href="blog-article.html" className="site-nav">Accessories</a></li>
                           </ul>
                         </li>
-                        <li className="lvl1"><a href="#"><b>Trendy!</b> <i className="anm anm-angle-down-l"></i></a></li>
+                        <li className="lvl1"><a href="#">Trendy! <i className="anm anm-angle-down-l"></i></a></li>
                       </ul>
                     </nav>
                     {/*End Desktop Menu*/}
